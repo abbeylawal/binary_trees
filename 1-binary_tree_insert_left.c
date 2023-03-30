@@ -1,4 +1,4 @@
-# include binary_tree.h
+# include "binary_tree.h"
 
 
 /* Instructions
@@ -12,7 +12,7 @@ Write a function that inserts a node as the left-child of another node
 
  */
 /* 
- * binary_tree_insert_left - add a node in the left of the parent
+* binary_tree_insert_left - add a node in the left of the parent
  * if it exists it move down one level and add the new node first
  * @parent: parent of the specified node
  * @value: value of the node
