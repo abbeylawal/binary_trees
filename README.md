@@ -26,3 +26,17 @@ Where parent is a pointer to the node to insert the left-child in
 And value is the value to store in the new node
 Your function must return a pointer to the created node, or NULL on failure or if parent is NULL
 If parent already has a left-child, the new node must take its place, and the old left-child must be set as the left-child of the new node.
+
+
+
+
+
+
+#### 4. Is leaf
+
+Write a function that checks if a node is a leaf
+
+    Prototype: int binary_tree_is_leaf(const binary_tree_t *node);
+    Where node is a pointer to the node to check
+    Your function must return 1 if node is a leaf, otherwise 0
+    If node is NULL, return 0
